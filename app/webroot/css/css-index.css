@@ -1,0 +1,315 @@
+@CHARSET "ISO-8859-1";
+/*  Author: bacuong;
+*	Description: Style for index;
+*	
+*/
+@import "layout.css";
+/*****************************STYLE INDEX.HTML****************************/
+div#index div.content li span {
+    background-color: #805149;
+}
+
+div#index div.content label {
+    font-family: 'Open Sans', Calibri, Candara, Arial, sans-serif;
+    font-weight: normal;
+}
+
+div#index div.main-content div.panel-heading {
+    /*height: 51px;*/
+}
+
+div#index div.main-content a.thumbnail{
+    width: 162px;
+}
+
+div#index div.main-content img {
+    margin: 0px;
+    padding: 3px;
+    width: 160px;
+    height: 160px;
+
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 1px solid #7F7F7F;
+}
+
+/*Style for row*/
+div#index div.main-content div.row{
+    background-color: white;
+/*    height: 200px;*/
+    padding: 10px;
+    border-bottom: #CC8174 solid 3px;
+    border-top: #CC8174 solid 3px;
+    /*overflow: hidden;*/
+}
+
+
+div#index div.main-content div.row div.details h3{
+    margin-top: 0;
+}
+
+div#index div.main-content div.row div.details a{
+    color: #805149;
+}
+
+div#index div.main-content div.row div.details a:hover{
+    text-decoration: none;
+    color: #CC8174;
+    font-weight: 600;
+};
+.address{
+    color: #ff0033;
+}
+
+div#index div.main-content div.row div.rating{
+    text-align: center;
+
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 0px solid #000000;
+    background-color: #7F7F7F;
+    padding-top: 10px;
+}
+
+div#index div.main-content div.row div.rating span.point{
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    background-color: #805149;
+
+    border-radius: 7px 7px 7px 7px;
+    -moz-border-radius: 7px 7px 7px 7px;
+    -webkit-border-radius: 7px 7px 7px 7px;
+    border: 0px solid #000000;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 1.5em;
+}
+
+div#index div.main-content div.row div.rating ul{
+    list-style: none;
+    color: white;
+    text-align: left;
+    position: relative;
+    margin-left: -2em;
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+
+div#index div.main-content div.row div.rating ul li span{
+    background-color: inherit;
+    font-weight: bold;
+}
+
+.badge {
+    background: #805149;
+}
+
+/*     Place.html              */
+div#place div#header .title{
+    font-family: "Lucida Calligraphy" !important;
+    font-weight: bold;
+}
+div#place div#header p{
+    color: #ffe16a;
+}
+
+div#place {
+    color: white;
+}
+
+div#place a{
+    color: white;
+}
+
+div#place a:hover {
+    color: #e7e7f0;
+    text-decoration: none;
+}
+
+/* Style wrap-item */
+div#place div.wrap-item{
+    background-color: #968987;
+    padding: 2em;
+    border-top: 5px solid #bcb1af;
+    margin-bottom: 30px;
+}
+
+/* Style nav */
+
+div#place div#nav {
+    background-color: #805149;
+    border-top: #CC8174 solid 3px;
+}
+
+div#place div#nav a{
+    color: white;
+    border-left: 2px solid #333;
+}
+
+div#place div#nav a:hover{
+    background-color: #975E4F;
+}
+
+div#place div#nav li.active a{
+    background-color: #975E4F;
+}
+
+/* Style side */
+div#place div#side{
+    margin-top: 5em;
+    padding: 0;
+    background-color: #968987;
+    padding: 2em;
+}
+
+div#place div#side-img{
+    text-align: right;
+    padding: 0;
+}
+
+div#place div#event{
+    background-color: #7F7F7F;
+    min-height: 340px;
+    color: white;
+}
+
+div#place div#event ul li{
+    background-color: #7F7F7F;
+}
+
+
+
+div#place div#thucdon{
+    margin-top: 5em;
+    background-color: #968987;
+    padding: 2em;
+}
+
+div#place div#thucdon{
+    margin-top: 5em;
+    background-color: #968987;
+    padding: 2em;
+}
+
+div#place div#thucdon ul li a{
+    color: white;
+}
+
+div#place div#thucdon ul li a:hover{
+    color: #333;
+}
+
+div#place div#thucdon ul li.active a{
+    background-color: #96908E;
+}
+
+div#place div#chitiet div.ct-item{
+    padding-right: 1em;
+}
+
+div#place div#chitiet div.ct-item div.panel-body{
+    height: 500px;
+    overflow: auto;
+}
+
+div#place div.panel li{
+    background-color: #7F7F7F;
+}
+
+div#place div.panel div.panel-body{
+    background-color: #7F7F7F;
+}
+
+#side-img img{
+    height: 400px;
+    width: 500px;
+}
+
+#gmap{
+    width: 300px;
+    height: 300px;
+}
+
+#search_place_near{
+    padding: 0.2em;
+    color: white;
+    margin: 3px;
+}
+#search_place_near{
+    background-color:#805149; 
+}
+#search_place_near:hover{
+    background-color:rgba(128, 81, 73,0.7); 
+}
+
+.view_detail{
+    background-color: #CC8174 !important;
+}
+
+#search_list{
+    background: #805149;
+    padding: 0.2em;
+}
+
+#search_list:hover{
+    background-color:rgba(128, 81, 73,0.7); 
+}
+
+#clear_comment{
+    padding: 0.2em;
+    color: white;
+    margin: 3px;
+}
+#clear_comment{
+    background-color:#805149; 
+}
+#clear_comment:hover{
+    background-color:rgba(128, 81, 73,0.7); 
+}
+
+#submit_comment{
+    padding: 0.2em;
+    color: white;
+    margin: 3px;
+}
+#submit_comment{
+    background-color:#805149; 
+}
+#submit_comment:hover{
+    background-color:rgba(128, 81, 73,0.7); 
+}
+
+#add_comment{
+    text-align: right;
+}
+
+#close_map{
+    padding: 0.2em;
+    color: white;
+    margin: 3px;
+}
+#close_map{
+    background-color:#805149; 
+}
+#close_map:hover{
+    background-color:rgba(128, 81, 73,0.7); 
+}
+
+#type{
+    color: black;
+}
+
+/************css comment  *********/
+
+#list_comment li{
+	border-bottom: 2px solid white;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+}
+
